@@ -75,14 +75,22 @@
 ### 2-2. 모듈 구현
 
 - **4-bit Compare (Enable 버전)**: 기존 counter에 enable 신호 추가 → trigger=1일 때만 증가
+  
+![Elevator UI](image/KakaoTalk_20250508_144245986.png)
 - **Compare Module**: 현재 층과 목표 층을 비교하여 상승/하강 판단
+
+![Elevator UI](image/KakaoTalk_20250508_144251660.png)
 - **Text LCD (Verilog)**: 비교 결과를 바탕으로 UP/DOWN 출력
+
+![Elevator UI](image/KakaoTalk_20250508_144306035.png)
 - **기타 재사용 모듈**: `decimal_to_binary`, `trigger`, `CLK_DIV`, `register`, `binary_to_segment` 등 수업 내용 재활용
 
 ---
 
 ### 2-3. 전체 회로
 > 전체 회로는 입력 처리, 상태 판단, 출력 피드백 흐름에 따라 모듈이 체계적으로 연결되어 구성되어 있음
+
+![Elevator UI](image/KakaoTalk_20250508_144318060.png)
 
 ---
 
