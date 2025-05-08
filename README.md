@@ -19,10 +19,12 @@
 
 #### ✅ 현재 층 수
 - 현재 층 수는 **7-segment (단독)**으로 표시됩니다.
+  
   ![Elevator UI](image/KakaoTalk_20250508_142536747.png)
 
 #### 🔼🔽 현재 상황 (Up/Down)
 - **올라가고 있는지 또는 내려가고 있는지**를 Up/Down으로 출력합니다.
+  
   ![Elevator UI](image/KakaoTalk_20250508_142545478.png)
 
 ### 4. 기타 모듈 - 버튼 누를 시 소리
